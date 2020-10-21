@@ -7,7 +7,7 @@ public class DieselCar extends Car {
     DieselCar(boolean hasFilter, int kmPerLiter, String regNr, String make, String model, int modelYear, int numberOfDoors) {
         super(regNr, make, model, modelYear, numberOfDoors);
         this.hasFilter = hasFilter;
-        this. kmPerLiter = kmPerLiter;
+        this.kmPerLiter = kmPerLiter;
     }
 
     // Tax calculation
